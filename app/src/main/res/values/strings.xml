@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Day13</string>
+    <string name="welcome_to_my_cafe">Welcome to My Cafe</string>
+    <string name="order_now">ORDER NOW</string>
+    <string name="thank_you">Thank You!</string>
+    <string name="your_order">Your order List</string>
+    <string name="your_order_has_been_placed_n_enjoy_your_meal_soon">Your order has been placed\n You will enjoy Your meal\n <b>soon!</b></string>
+    <string name="place_you_order">Place you order</string>
+    <string name="enter_order_4">Enter order 4</string>
+    <string name="enter_order_3">Enter order 3</string>
+    <string name="enter_order_2">Enter order 2</string>
+    <string name="enter_order_1">Enter order 1</string>
+    <string name="not_yet">Not yet</string>
+</resources>

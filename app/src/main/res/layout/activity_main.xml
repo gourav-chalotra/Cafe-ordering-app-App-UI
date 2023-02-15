@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFE926"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_my_cafe"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"/>
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_you_order"
+        android:textSize="20sp"
+        android:layout_marginTop="40sp"
+        android:textColor="@color/black"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="30sp"
+        android:elevation="10sp"
+        android:layout_marginTop="40dp"
+        app:cardElevation="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <EditText
+                android:id="@+id/ETorder1"
+                android:autofillHints=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="30sp"
+                android:layout_marginRight="30sp"
+                android:hint="@string/enter_order_1"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:textColorHint="#323232" />
+
+            <EditText
+                android:autofillHints=""
+                android:id="@+id/ETorder2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30sp"
+                android:textSize="20sp"
+                android:hint="@string/enter_order_2"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="#323232" />
+
+            <EditText
+                android:autofillHints=""
+                android:id="@+id/ETorder3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30sp"
+                android:hint="@string/enter_order_3"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:textColor="@color/black"
+                android:textColorHint="#323232" />
+
+            <EditText
+                android:autofillHints=""
+                android:id="@+id/ETorder4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30sp"
+                android:layout_marginBottom="20sp"
+                android:textSize="20sp"
+                android:inputType="text"
+                android:hint="@string/enter_order_4"
+                android:textColor="@color/black"
+                android:textColorHint="#323232" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/orderBtn"
+        android:layout_width="295dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="50dp"
+        android:elevation="10sp"
+        android:textSize="18sp"
+        android:textColor="#FFE500"
+        android:background="@drawable/round_button"
+        android:text="@string/order_now" />
+
+</LinearLayout>
