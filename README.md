@@ -1,7 +1,7 @@
 # Cafe-ordering-app-App-UI
 Cafe ordering 🚛 app App UI using android studio 
 
-# App-view-Screenshort
+# Screenshort
 
 
 ![Record_2023-02-15-23-56-55_Moment](https://user-images.githubusercontent.com/90745717/219196043-5dabf29f-f38e-43b9-87e3-451d2b6513db.jpg)
